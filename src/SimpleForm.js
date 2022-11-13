@@ -32,7 +32,16 @@ class SimpleForm extends React.Component {
   render() {
     const { firstNameError, firstName } = this.state
     return (
-      <div>
+      <div
+        style={{
+          margin: 50,
+          padding: 10,
+          width: 300,
+          border: "1px solid black",
+          backgroundColor: "black",
+          color: "white"
+        }}
+      >
         <div>
           <label>
             First name:
